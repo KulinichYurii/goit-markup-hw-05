@@ -8,6 +8,10 @@ body {
     list-style: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 ul,
 ol {
     margin: 0;
@@ -48,6 +52,8 @@ p {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+
 
 
 .visually-hidden {
@@ -730,6 +736,7 @@ input::placeholder {
     border-radius: 50%;
     width: 24px;
     height: 24px;
+    margin-left: 16px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     top: 24px;
     right: 24px;
